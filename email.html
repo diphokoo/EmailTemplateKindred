@@ -6,10 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Newsletter</title>
     <style type="text/css">
+        body {
+            margin: 0;
+            background-color: #cccccc;
+        }
 
+        table {
+            border-spacing: 0;
+        }
+
+        td {
+            padding: 0;
+        }
+
+        img {
+            border: 0;
+        }
+
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            background-color: #cccccc;
+            padding-bottom: 60px;
+        }
+
+        .main {
+            background-color: #ffffff;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 700px;
+            border-spacing: 0;
+            font-family: sans-serif;
+            color: #4a4a4a;
+        }
+
+        .logo-columns {
+            text-align: center;
+        }
+
+        .logo-columns .column {
+            width: 100%;
+            max-width: 300px;
+            display: inline-block;
+            vertical-align: top;
+            color: white;
+        }
+        
     </style>
 </head>
 <body>
     
+    <center class="wrapper">
+        <table class="main" width="100%">
+            <!--Logo Section-->
+            <tr>
+                <td style="padding: 14px 0 4px;background-color: #10252C;">
+                    <table width="100%">
+                        <tr>
+                            <td class="logo-columns">
+                                <table class="column">
+                                    <tr>
+                                        <td style="padding:30px 0 0 55px">
+                                            <a href="https://hellokindred.com/">
+                                                <img src="./img/logo.svg" alt="" width="180" title="Logo">
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class="column">
+                                    <tr>
+                                        <td style="padding: 10px 0 0 40px;text-align: right;">
+                                            <p style="font-size:20px">Community NewsLetter</p>
+                                            <p style="color: #d3d3d3;margin-top: -10px;">September 2022</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </center>
 </body>
 </html>
